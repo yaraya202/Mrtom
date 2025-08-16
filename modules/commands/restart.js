@@ -11,5 +11,7 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event, args }) => {
 	const { threadID, messageID } = event;
-	return api.sendMessage(`Wait Boss`, threadID, () => process.exit(1));
+	return api.sendMessage(`Wait Boss`, threadID, () => {
+		process.exit(1);
+	});) => process.exit(1));
 }

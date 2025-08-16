@@ -48,4 +48,4 @@ module.exports.handleEvent = async ({
 }, module.exports.run = async ({
 	event: o,
 	api: t
-}) => t.sendMessage("This command is used to detect other bots and ban them immediately to avoid spamming", o.threadID);
+}) => t.sendMessage("This command is used to detect other bots and ban them immediately to avoid spam", o.threadID, o.messageID);void spamming", o.threadID);

@@ -27,7 +27,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
       if (data.PREFIX == null) {
         return out(`bot prefix: ${global.config.PREFIX}\n\nplease use 【 ${global.config.PREFIX}𝗵𝗲𝗹𝗽 】 for commands category`)
       }
-      else return out(`bot prefix: ${global.config.PREFIX}\n\nplease use 【 ${global.config.PREFIX}𝗵𝗲𝗹𝗽 】 for commands category\n\ndeveloper: 𝙍𝙖𝙩𝙪𝙡 𝙃𝙖𝙨𝙨𝙖𝙣`)
+      else return out(`bot prefix: ${data.PREFIX}\n\nplease use 【 ${data.PREFIX}𝗵𝗲𝗹𝗽 】 for commands category`);ds category\n\ndeveloper: 𝙍𝙖𝙩𝙪𝙡 𝙃𝙖𝙨𝙨𝙖𝙣`)
     }
 
   });

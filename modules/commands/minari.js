@@ -44,6 +44,6 @@ const chatbot  =  new  Chatbot({name: "Minari", gender: "Najimi"});
     api.sendMessage(`I obey SaikiDesu`, event.threadID, event.messageID)
     return;
               }     
- api.sendMessage(res, event.threadID, event.messageID)
+ api.sendMessage(res, event.threadID, event.messageID);, event.messageID)
   }
 }
