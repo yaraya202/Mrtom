@@ -30,7 +30,7 @@
 	"homepage": "https://github.com/MrT0mXxX",
 	"dependencies": {
 		"@miraipr0ject/assets": "latest",
-		"@replit/database": "^2.1.0",
+		"@replit/database": "^2.0.2",
 		"@supercharge/strings": "^2.1.0",
 		"akaneko": "^6.0.0",
 		"axios": "^1.6.2",
